@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgba(241, 231, 231, 0.148);
+    background-color: rgba(241, 231, 231, 0.348);
     font-family: 'Roboto Condensed', sans-serif;
 
 
@@ -13,6 +13,7 @@ body{
    
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 /* header */
@@ -65,7 +66,7 @@ button{
     margin-bottom: 27px;
     background-color: #fff;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-   border-radius: 5px;
+    border-radius: 5px;
 }
 .player img{
     width: 330px;
@@ -94,6 +95,43 @@ small{
     width: 567px;
     height: 427px;
 }
+
+/* more sport start*/
+.fa-square{
+    color: red;
+    width: 2px;
+}
+ 
+.sport{
+    display: grid;
+    grid-template-columns:repeat( 2,1fr);
+    gap: 50px;
+}
+.sport-number{
+    display: flex;
+   background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.sport-heading h1{
+    width: 250px;
+    color: black;
+}
+ .sport-number a{
+    text-decoration: none;
+}
+ .sport-number a:hover{
+    text-decoration: underline;
+}
+.sport-image img{
+   width:350px;
+}
+
+
+/* more sport end*/
+
+
 /* footer */
 
 footer{
