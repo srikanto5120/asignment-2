@@ -8,7 +8,9 @@ body{
 
 
 }
-/* common selector */
+/*---
+ common selector
+ ----- */
 .container{
    
     width: 90%;
@@ -16,7 +18,9 @@ body{
     margin-bottom: 100px;
 }
 
-/* header */
+/*----- 
+header 
+----- */
 .header{
     background-color: rgb(43, 40, 236);
     display: flex;
@@ -54,7 +58,11 @@ button{
 .header-img:hover {
    transform:scale(1.5);
 }
-/* section player */
+ 
+
+/*-----
+ player section 
+----- */
 .players{
     margin-top: 70px;
     display: grid;
@@ -76,7 +84,9 @@ button{
     width: 320px;
 }
 
-/*---- highlight section-- */
+/*----
+ highlight section
+ ----- */
 .hightlight{
     display: flex;
     gap: 66px;
@@ -103,7 +113,9 @@ small{
 
 
 
-/* copa winner rasio star*/
+/* ---
+-copa winner rasio
+------ */
 .copa{
     background-color: rgb(229, 232, 241);
      
@@ -174,9 +186,14 @@ small{
     height: 30px;
     background-color: darkblue;
 }
-/* copa winner rasio end*/
+ 
 
-/* more sport start*/
+/* -----
+more sport
+ ---*/
+
+
+
 .fa-square{
     color: red;
     width: 2px;
@@ -207,13 +224,16 @@ small{
 .sport-image img{
    width:300px;
 }
-/* more sport end*/
+ 
 
 
 
-/* footer */
+/*------
+ footer
+ ------*/
 
 footer{
+   
     width: 484px;
     height: 215px;
     margin-top: 160px;
@@ -224,15 +244,23 @@ footer{
 }
 .footer-text{
     margin-left: 130px;
+    
 }
 .icon{
     margin-left: 10px;
+    
 }
 .icon-item{
-    margin-left: 5px;
+     
+    
 }
-/*  media q star */
+/* ----- 
+media q 
+ ---- */
 @media only screen and (max-width:480px){
+    .container{
+        margin-bottom: 80px;
+    }
     .header{
         display: flex;
          flex-direction: column;
@@ -251,11 +279,18 @@ footer{
     .players{
         grid-template-columns: repeat(1,1fr);
         margin-left: 0;
+         
     }
     .hightlight{
         flex-direction: column;
+        
     }
-
+    .country-name{
+        width: 50px;
+    }
+    .brazil-rasio{
+        width: 25vh;
+    }
      
     .sport{
         grid-template-columns: repeat(1,1fr);  
@@ -264,47 +299,14 @@ footer{
         flex-direction: column;
     }
     footer{
+      
          width: 0;
         margin-left:0;
     }
-}
+    .icon{
+        display:flex;
+         gap: 10px;
+        
+    }
 
-/*
-@media  only screen and (max-width:480px) {
-    .container{
-        margin-left: 10%;
-    }
-    .header{
-       display: flex;
-        flex-direction: column;
-        height: 695px;
-    }
-    .header-text{
-        margin-top: 0;
-        margin-bottom: 50px;
-    }
-    .header img{
-        width: 330px;
-        height: 260px;
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .players{
-        grid-template-columns: 1fr;
-    }
-    .hightlight{
-        flex-direction: column;
-    }
-    .country-name{}
-   
-    .sport{
-        grid-template-columns: 1fr;
-    }.sport-number{
-        flex-direction: column;
-    }
-     
-    footer{
-        margin-left: 0;
-    }
-     
-} */
+}
