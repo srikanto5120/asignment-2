@@ -233,10 +233,7 @@ footer{
     margin-left: 10px;
     
 }
-.icon-item{
-     
-    
-}
+
 /* ----- 
 media q 
  ---- */
@@ -300,9 +297,7 @@ media q
         margin-left:0;
       
     }
-    .mobile-section-width{
-        margin: 0;
-    }
+     
     .icon{
         display:flex;
          gap: 10px;
