@@ -156,37 +156,20 @@ small{
     height: 30px;
     background-color: darkblue;
 }
-.peru-rasio{
+.peru-pera-chi-rasio{
     
     width: 13.2vh;
     height: 30px;
     background-color: darkblue;
 }
-.peraguay-rasio{
-    
-    width: 13.2vh;
-    height: 30px;
-    background-color: darkblue;
-}
-.chile-rasio{
-    
-    width: 13.2vh;
-    height: 30px;
-    background-color: darkblue;
-}
-.bolivia-rasio{
+
+.bolivia-clombia-rasio{
     
     width: 6.6vh;
     height: 30px;
     background-color: darkblue;
 }
-.clombia-rasio{
-    
-    width: 6.6vh;
-    height: 30px;
-    background-color: darkblue;
-}
- 
+
 
 /* -----
 more sport
@@ -298,6 +281,12 @@ media q
     .brazil-rasio{
         width: 20vh;
     }
+    .peru-pera-chi-rasio{
+        width: 8vh;
+    }
+    .bolivia-clombia-rasio{
+        width: 5vh;
+    }
      
     .sport{
         grid-template-columns: repeat(1,1fr);  
@@ -309,6 +298,10 @@ media q
       
          width: 0;
         margin-left:0;
+      
+    }
+    .mobile-section-width{
+        margin: 0;
     }
     .icon{
         display:flex;
