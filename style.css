@@ -285,11 +285,18 @@ media q
         flex-direction: column;
         
     }
+    .country{
+        gap: 50px;
+    }
     .country-name{
         width: 50px;
+        
+    }
+    .argentina-rasio{
+        width: 23vh;
     }
     .brazil-rasio{
-        width: 25vh;
+        width: 20vh;
     }
      
     .sport{
